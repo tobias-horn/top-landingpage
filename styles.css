@@ -1,0 +1,140 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin: 0;
+}
+
+.container-wrapper {
+    background-color: #1f2937;
+}
+
+.container, .quote {
+max-width: 1200px;
+margin: 0 auto;
+
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-items li {
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.hero-image {
+    width: 50%;
+    padding: 60px;
+    padding-top: 0;
+}
+
+.content {
+width: 50%;
+}
+
+.content h1 {
+    font-size: 32px;
+}
+
+.content button {
+    padding:  12px 22px;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.main-content {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    border: solid 4px #3882f6;
+}
+
+.card-container-wrapper {
+    display: flex;
+    text-align: center;
+
+}
+
+.quote-wrapper {
+
+    background-color: #e5e7eb;
+    margin-top: 100px;
+}
+
+.quote {
+
+width: 600px;
+font-style: italic;
+font-weight: 200;
+font-size: 20px;
+color: #1f2937;
+padding: 50px 0;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+    
+}
+
+.cta-wrapper {
+    background-color: #3882f6;
+    padding: 20px 40px;
+    color: white;
+    margin: 0 100px;
+    border-radius: 12px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-wrapper button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 7px 12px;
+    align-self: center;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
